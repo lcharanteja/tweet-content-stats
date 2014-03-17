@@ -13,4 +13,4 @@ AUTHORS
 ====
 Fatih Sucu
 
-mainteners: Mustafa Atik
+Maintainer: Mustafa Atik
