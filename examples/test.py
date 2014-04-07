@@ -1,4 +1,4 @@
-from tcs import tcs
+import tcs
 
 tweet = {
    "text": "RT @TwiterSonDakika: Polis Ankara'da olagan ustu hal ilan eti.Onlarca yarali. Bu da Ankara'da Cebeci Kampusu girisi http:\/\/t.co\/zQLn81xJgk",

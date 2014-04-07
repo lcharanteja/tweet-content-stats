@@ -18,9 +18,10 @@ class Classifier(object):
 			'link',
 			'checkIn',
 			'favorite',
-			'retweet'
+			'retweet',
+			'mention'
 		]
-		
+				
 		for detectorName in dedectorNames:
 			detector = globals()[detectorName]
 			classes = detector.detect(tweet)
@@ -45,6 +46,7 @@ class Classifier(object):
 			"link":0,
 			"checkIn":0,
 			"favorite":0,
-			"retweet":0
+			"retweet":0,
+			"mention":0
 		}
 
